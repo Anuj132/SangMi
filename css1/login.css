@@ -1,0 +1,123 @@
+/*  login */
+#login{
+    width: 65%;
+    height: 70vh;
+    background-color: rgb(67 0 86);
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: rgba(17,12,46,0.15) 0px 48px 100px 0px;
+}
+#side1 h3{
+    color:#ffc800;
+    font-weight:bold;
+    margin-top:200px;
+}
+#side2{
+    background-color: white;
+    height:70vh;
+    border-radius:10px;
+}
+#side2 h3{
+    margin-top:30px;
+    color:#ffc800;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px black;
+}
+.input2 input{
+    margin-top:15px;
+    border: none;
+    width:300px;
+    border-bottom: 2px solid #ffc800;
+}
+.input2 input ::placeholder{
+    font-weight: bold;
+}
+#btnlogin{
+    padding-top:10px;
+}
+#btnlogin a{
+    padding:10px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #ffc800;
+    color: white;
+    font-weight: bold;
+    border:none;
+    text-shadow: 0px 0px 1px black;
+}
+#side2 p{
+    margin-top: 10px;
+}
+@media screen and (max-width:500px){
+    .input2 input{
+        width:200px;
+    }
+    #side2{
+        height:60vh;
+    }
+    #newsletter{
+        margin-top:200px;
+    }
+}
+/*  login */
+
+/* about */
+#about{
+    margin-top: 30px;
+}
+#about h3{
+    font-weight: bold;
+    color:#ffc800;
+    text-shadow: 0px 1px 1px black;
+}
+#about button{
+    width: 150px;
+    height: 36px;
+    color: white;
+    background-color: rgb(67 0 86);
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* about */
+
+
+/* contact */
+#contact{
+    margin-top:50px;
+}
+#contact .card{
+    height: 80px;
+    margin-top:20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#contact .card i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    color: rgb(67 0 86);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#contact .card h6{
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: rgb(67 0 86);
+}
+.messagebtn button{
+    margin-top: 20px;
+    width: 200px;
+    height: 33px;
+    background-color: transparent;
+    border: 2px solid rgb(67 0 86);
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.messagebtn button:hover{
+    background-color: rgb(67 0 86);
+    color: white;
+}
+/* contact */
